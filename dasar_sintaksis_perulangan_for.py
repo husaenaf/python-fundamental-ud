@@ -1,5 +1,5 @@
 """
-program perulangan baca buku
+program perulangan baca buku dengan for
 """
 
 jumlah_buku = 10
