@@ -1,5 +1,5 @@
 """
-perulangan dengan while
+perulangan dengan while untul studi kasus baca buku
 """
 
 jumlah_buku = 10
