@@ -2,25 +2,25 @@
 perulangan dengan while untul studi kasus baca buku
 """
 
-buku = 10
+book_count = 10
 print('ibu berkata, "baca semua bukumu"')
-jumlah_baca = 0
+read_count = 0
 
-jumlah_paham = 0
-print(f'jumlah buku yang sudah dibaca dan dipahami {jumlah_paham}')
+understood_count = 0
+print(f'jumlah buku yang sudah dibaca dan dipahami {understood_count}')
 
-while jumlah_baca < buku * 2:
-    jumlah_baca = jumlah_baca + 1
-    if jumlah_paham == 9:
-        print(f"buku ke {jumlah_paham + 1} belum paham")
+while read_count < book_count * 2:
+    read_count = read_count + 1
+    if understood_count == 9:
+        print(f"buku ke {understood_count + 1} belum paham")
     else:
-        jumlah_paham +=1
+        understood_count +=1
         #arti kode diatas adalah jumlah_buku_yang_sudah_dibaca = jumlah_buku_yang_sudah_dibaca + 1
-        print(f"buku ke {jumlah_paham} sudah dibaca dan dipahami")
+        print(f"buku ke {understood_count} sudah dibaca dan dipahami")
 
-print(f'jumlah buku yang sudah dibaca dan dipahami {jumlah_paham}')
-if jumlah_paham == buku:
+print(f'jumlah buku yang sudah dibaca dan dipahami {understood_count}')
+if understood_count == book_count:
     print(f'bu, semua buku sudah dibaca dan dipahami')
 else:
     print(f"bu, tidak semua buku bisa dipahami. "
-          f"Budi hanya bisa memahami {jumlah_paham} buku")
+          f"Budi hanya bisa memahami {understood_count} buku")
