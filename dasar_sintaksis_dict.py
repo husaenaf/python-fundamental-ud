@@ -35,3 +35,9 @@ import json
 result = json.dumps(users)
 print(result)
 print(type(result))
+
+#membuka file pyphon dan menuliskannya dalam file bernama result.json
+with open('result.json', 'w') as file:
+#menulis hasil json ke file dengan dump (bukan dumps)
+    json.dump(users, file)
+
